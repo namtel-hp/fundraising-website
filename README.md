@@ -133,3 +133,12 @@ This project is licensed under the [MIT License](LICENSE).
 * [Horizontal Fundraising Thermometer](https://codepen.io/robotballoon/pen/Fjnyp) by [Robot Balloon](https://codepen.io/robotballoon)
 * [Simple jQuery Search Filter](https://codepen.io/alexerlandsson/pen/ZbyRoO) by [Alexander Erlandsson](https://codepen.io/alexerlandsson)
 * The many useful articles at [simple is better than complex](https://simpleisbetterthancomplex.com/) by [Vitor Freitas](https://simpleisbetterthancomplex.com/about/)
+
+NAMTEL:
+sudo apt install python3-pip
+sudo pip3 install --upgrade virtualenv
+
+cd /fundraising
+virtualenv venv -p python3
+source venv/bin/activate
+pip install -r requirements.txt
